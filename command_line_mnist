@@ -1,0 +1,2 @@
+python python/classify_mnist.py --model_def examples/mnist/lenet.prototxt --pretrained_model examples/mnist/lenet_iter_10000.caffemodel --center_only --images_dim 28,28 --labels_file data/mnist/mnist_words.txt --force_grayscale --print_result images_test/four_28x28.png foo
+
